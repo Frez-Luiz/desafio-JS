@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanterna Celular</title>
+    <title>Lanterna</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <center> <h1> Acender e Apagar a Lanterna</h1> </center>
-    <img id="lanterna" src="off.png" alt="Uma lanterna apagada" width="600">
+    <img id="lanterna" src="desligado.png" alt="Uma lanterna apagada" width="600">
     <br>
-    <button onclick="acender()">Acender </button> 
-    <button onclick="apagar()">Apagar</button>
+    <div id="botoes">
+        <button id="btnAcender" > Acender </button>
+        <button id="btnApagar" > Apagar </button>
+        <button id="btnAuto" > Automático </button>
+
+    </div>
+    
 <script src="script.js"></script>
 </body>
 </html>
