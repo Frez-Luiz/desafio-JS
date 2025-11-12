@@ -2,19 +2,20 @@ body{
     text-align:center;
     font-family: Arial;
     background-color: #9bf5f0;
-    color: black;
+    color: rgb(180, 180, 180);
 
 }
 img{
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.2s;
 
 }
 button{
     margin:10px;
-    padding: 25px 60px;
-    font-size: 20px;
+    padding: 25px 30px;
+    font-size: 15px;
 }
-#btnAcender {background-color: #e5ff00;}
-#Apagar {background-color: #b4b4b4;}
-#Automático {background-color: #ff9317;}
+#btnAcender {background-color: #fbff00;}
+#btnApagar {background-color: #ff0000;}
+#btnAuto {background-color: #002fff;}
+#btnParar {background-color: #00ff4c;}
