@@ -14,8 +14,8 @@ function automatico(){
     intervalo = setInterval(()=>{
         if(estado === 0) acender();
         else if(estado === 1) apagar();
-        estado = (estado + 1) % 3;
-    }, 350)
+        estado = (estado + 1) % 2;
+    }, 450)
 }
 function parar(){
     clearInterval(intervalo);
